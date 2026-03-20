@@ -1,0 +1,22 @@
+{
+  "name": "catalogo",
+  "version": "1.0.0",
+  "description": "Catalogo de Bolsos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubengonzalezzz/Catalogo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rubengonzalezzz/Catalogo/issues"
+  },
+  "homepage": "https://github.com/rubengonzalezzz/Catalogo#readme"
+}
