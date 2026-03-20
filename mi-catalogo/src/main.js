@@ -12,25 +12,25 @@ const bolsos = [
     nombre: "Bōso en Cuero Grande",
     precio: "20.00",
     imagen: fotoBolsoGrande, // <--- Usas la variable que importaste
-    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+obtener+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
   {
    nombre: "Bōso en Cuero Pequeño",
     precio: "15.00",
     imagen: fotoBolsoPequeno,
-    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+obtener+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
   {
     nombre: "Catalogo Completo Bōso",
     precio: "6.00 a 20.00",
     imagen: fotocatalogo, // <--- Usas la variable que importaste
-    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+obtener+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
   {
     nombre: "Productos Bōso",
     precio: "12.00",
     imagen: Productos, // <--- Usas la variable que importaste
-    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+obtener+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
 ];
 
