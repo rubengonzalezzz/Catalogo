@@ -1,25 +1,37 @@
 import './style.css'
+import fotoBolsoGrande from './assets/BolsoGrande.jpeg'
+import fotoBolsoPequeno from './assets/bolso_pequeno.jpeg'
+
+import fotocatalogo from './assets/catalogo.jpeg'
+import Productos from './assets/Productos.jpeg'
+
 
 // 1. Definimos tus productos (Bolsos)
 const bolsos = [
   {
     nombre: "Bōso en Cuero Grande",
     precio: "20.00",
-    imagen: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=500",
-    link: "https://wa.me/584120000000?text=Hola!+Me+interesa+el+Tote+Minimalista"
+    imagen: fotoBolsoGrande, // <--- Usas la variable que importaste
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
   {
-    nombre: "Clutch Gala Noir",
-    precio: "85.00",
-    imagen: "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?q=80&w=500",
-    link: "https://wa.me/584120000000?text=Hola!+Me+interesa+el+Clutch+Gala"
+   nombre: "Bōso en Cuero Pequeño",
+    precio: "15.00",
+    imagen: fotoBolsoPequeno,
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
   },
   {
-    nombre: "Bandolera Urban",
-    precio: "95.00",
-    imagen: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=500",
-    link: "https://wa.me/584120000000?text=Hola!+Me+interesa+la+Bandolera+Urban"
-  }
+    nombre: "Catalogo Completo Bōso",
+    precio: "6.00 a 20.00",
+    imagen: fotocatalogo, // <--- Usas la variable que importaste
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+  },
+  {
+    nombre: "Productos Bōso",
+    precio: "12.00",
+    imagen: Productos, // <--- Usas la variable que importaste
+    link: "https://wa.me/584129894936?text=Hola!+Me+interesa+mas+informacion+acerca+de+los+productos+que+vende!!"
+  },
 ];
 
 // 2. Inyectamos el contenido en el div #app
